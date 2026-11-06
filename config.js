@@ -31,6 +31,13 @@ window.SITE = {
      Add  visible: false  to hide one without deleting it.
   */
   gallery: [
+     "assets/images/0.png",
+     "assets/images/a.jpeg",
+     "assets/images/aa.jpeg",
+     "assets/images/aaa.jpeg",
+     "assets/images/aaaa.jpeg",
+     "assets/images/aaaaa.jpeg",
+     "assets/images/ab.jpeg"
     // "assets/gallery/stage1.jpg",
     // "https://drive.google.com/file/d/FILE_ID/view?usp=sharing",
     // { src: "assets/gallery/stage2.jpg", caption: "Annual day, Bengaluru", captionKn: "ವಾರ್ಷಿಕೋತ್ಸವ, ಬೆಂಗಳೂರು" },
