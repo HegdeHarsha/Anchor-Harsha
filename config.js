@@ -18,7 +18,7 @@ window.SITE = {
   whatsappMessageKn: "ನಮಸ್ಕಾರ ಹರ್ಷ, ನಮ್ಮ ಕಾರ್ಯಕ್ರಮದ ನಿರೂಪಣೆಯ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಬಯಸುತ್ತೇನೆ.",
 
   /* GALLERY and VIDEOS: true = show, false = hide the whole section and its menu link */
-  sections: { gallery: true, videos: true },
+  sections: { gallery: true, videos: false },
 
   /* ---------- PHOTOS ----------
      Each photo can be ANY of these:
