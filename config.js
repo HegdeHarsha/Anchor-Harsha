@@ -7,9 +7,17 @@ window.SITE = {
   email: "punarvasu1001@gmail.com",
   countryCode: "91",
   phone: "9740745306",
+  /* ---------- LANGUAGES ----------
+     ["en", "kn"]  = both languages, with a switch button in the top bar
+     ["en"]        = English only (switch button is hidden)
+     ["kn"]        = Kannada only (switch button is hidden)
+  */
+  languages: ["en", "kn"],
+  defaultLang: "en",            // first language shown when both are on ("en" or "kn")
   whatsappMessage: "Hello Harsha, I would like to talk about hosting our event.",
+  whatsappMessageKn: "ನಮಸ್ಕಾರ ಹರ್ಷ, ನಮ್ಮ ಕಾರ್ಯಕ್ರಮದ ನಿರೂಪಣೆಯ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಬಯಸುತ್ತೇನೆ.",
 
-  /* true = show section, false = hide it (and its menu link) */
+  /* GALLERY and VIDEOS: true = show, false = hide the whole section and its menu link */
   sections: { gallery: true, videos: true },
 
   /* ---------- PHOTOS ----------
@@ -18,13 +26,14 @@ window.SITE = {
        2. A Google Drive link:   "https://drive.google.com/file/d/FILE_ID/view?usp=sharing"
           (Drive: Share > General access > "Anyone with the link")
        3. Any direct image link: "https://example.com/photo.jpg"
-     Plain link, or with a caption / hide switch:
-       { src: "assets/gallery/stage1.jpg", caption: "Annual day", visible: true }
+     Plain link, or with captions in both languages:
+       { src: "assets/gallery/stage1.jpg", caption: "Annual day", captionKn: "ವಾರ್ಷಿಕೋತ್ಸವ" }
+     Add  visible: false  to hide one without deleting it.
   */
   gallery: [
     // "assets/gallery/stage1.jpg",
     // "https://drive.google.com/file/d/FILE_ID/view?usp=sharing",
-    // { src: "assets/gallery/stage2.jpg", caption: "Annual day, Bengaluru" },
+    // { src: "assets/gallery/stage2.jpg", caption: "Annual day, Bengaluru", captionKn: "ವಾರ್ಷಿಕೋತ್ಸವ, ಬೆಂಗಳೂರು" },
   ],
 
   /* ---------- VIDEOS ----------
@@ -34,12 +43,12 @@ window.SITE = {
        3. File in your repo:  "assets/videos/highlights.mp4"
        4. Vimeo link
        5. Any other link (Instagram, Facebook) shows as a "Watch video" button
-     Plain link, or with a title / hide switch:
-       { url: "https://youtu.be/XXXXXXXXXXX", title: "Showreel", visible: true }
+     Plain link, or with titles in both languages:
+       { url: "https://youtu.be/XXXXXXXXXXX", title: "Showreel", titleKn: "ಶೋರೀಲ್" }
   */
   videos: [
     // "https://www.youtube.com/watch?v=XXXXXXXXXXX",
-    // { url: "https://drive.google.com/file/d/FILE_ID/view?usp=sharing", title: "Stage highlights" },
-    // { url: "assets/videos/highlights.mp4", title: "Concert hosting" },
+    // { url: "https://drive.google.com/file/d/FILE_ID/view?usp=sharing", title: "Stage highlights", titleKn: "ವೇದಿಕೆಯ ಮುಖ್ಯಾಂಶಗಳು" },
+    // { url: "assets/videos/highlights.mp4", title: "Concert hosting", titleKn: "ಸಂಗೀತ ಕಛೇರಿ ನಿರೂಪಣೆ" },
   ]
 };
