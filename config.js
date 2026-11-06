@@ -33,11 +33,20 @@ window.SITE = {
   gallery: [
      "assets/images/0.png",
      "assets/images/a.jpeg",
+     "assets/images/11.jpeg",
      "assets/images/aa.jpeg",
+     "assets/images/5.jpg",
      "assets/images/aaa.jpeg",
+     "assets/images/3.jpg",
      "assets/images/aaaa.jpeg",
+     "assets/images/4.jpg",
      "assets/images/aaaaa.jpeg",
-     "assets/images/ab.jpeg"
+     "assets/images/9.jpeg",
+     "assets/images/ab.jpeg",
+     "assets/images/8.png",
+     "assets/images/10.jpg",
+     "assets/images/6.jpg",
+     
     // "assets/gallery/stage1.jpg",
     // "https://drive.google.com/file/d/FILE_ID/view?usp=sharing",
     // { src: "assets/gallery/stage2.jpg", caption: "Annual day, Bengaluru", captionKn: "ವಾರ್ಷಿಕೋತ್ಸವ, ಬೆಂಗಳೂರು" },
